@@ -252,6 +252,52 @@ section {
   color: #ffffff;
 }
 
+/* Carousel */
+/* line 3, ../scss/modules/_components.scss */
+.carousel {
+  margin-bottom: 20px;
+}
+
+/* line 7, ../scss/modules/_components.scss */
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc;
+}
+
+/* Tabs */
+/* line 14, ../scss/modules/_components.scss */
+.tab-pane {
+  padding: 20px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* line 20, ../scss/modules/_components.scss */
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 24, ../scss/modules/_components.scss */
+.tab-secondary .tab-pane, .tab-secondary .nav-tabs > li.active > a, .tab-secondary .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 28, ../scss/modules/_components.scss */
+.tab-dark .tab-pane, .tab-dark.nav-tabs > li.active > a, .tab-dark .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #2b5464;
+  color: #ffffff;
+}
+
+/* line 32, ../scss/modules/_components.scss */
+.tab-light .tab-pane, .tab-light .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .tab-primary .nav-tabs > li.active > a:focus {
+  background: #e4eef2;
+  color: #666666;
+}
+
 /* LAYOUTS - Page layout styles */
 /* Navbar */
 /* line 4, ../scss/layouts/_nav.scss */
