@@ -183,6 +183,20 @@ img.device-small {
   width: 70%;
 }
 
+/* Buttons */
+/* line 3, ../scss/modules/_buttons.scss */
+.btn-primary {
+  background: #00aff0;
+  color: #ffffff;
+  border: 2px solid white;
+}
+
+/* line 8, ../scss/modules/_buttons.scss */
+.btn-primary:hover {
+  background: #008abd;
+  border: 2px solid white;
+}
+
 /* Sections */
 /* line 3, ../scss/modules/_sections.scss */
 section {
