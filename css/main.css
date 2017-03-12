@@ -97,6 +97,92 @@ img.device-small {
 }
 
 /* MODULES - Individual site components */
+/* Blocks */
+/* line 4, ../scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+/* line 8, ../scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 13, ../scss/modules/_blocks.scss */
+.block iframe, .block-primary iframe, .block-secondary iframe, .block-light iframe, .block-dark iframe {
+  width: 100%;
+}
+
+/* line 18, ../scss/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 23, ../scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 28, ../scss/modules/_blocks.scss */
+.block-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 33, ../scss/modules/_blocks.scss */
+.block-dark {
+  background: #2b5464;
+  color: #ffffff;
+}
+
+/* line 38, ../scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* line 42, ../scss/modules/_blocks.scss */
+.block-image img {
+  width: 100%;
+}
+
+/* line 46, ../scss/modules/_blocks.scss */
+.block-border {
+  border: 1px solid #cccccc;
+}
+
+/* line 51, ../scss/modules/_blocks.scss */
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #00aff0;
+  color: #ffffff;
+  margin: 0;
+  font-size: 18px;
+}
+/* line 58, ../scss/modules/_blocks.scss */
+.block-primary-head .block-content {
+  border: 1px solid #00aff0;
+  padding: 10px;
+}
+
+/* line 65, ../scss/modules/_blocks.scss */
+.block-icon h3 {
+  padding: 0;
+  margin: 0;
+}
+/* line 70, ../scss/modules/_blocks.scss */
+.block-icon .icon {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+/* line 76, ../scss/modules/_blocks.scss */
+.block-icon .icon-content {
+  float: left;
+  width: 70%;
+}
+
 /* Sections */
 /* line 3, ../scss/modules/_sections.scss */
 section {
