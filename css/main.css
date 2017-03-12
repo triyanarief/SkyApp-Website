@@ -97,6 +97,61 @@ img.device-small {
 }
 
 /* MODULES - Individual site components */
+/* Sections */
+/* line 3, ../scss/modules/_sections.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 7, ../scss/modules/_sections.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat top center;
+}
+/* line 11, ../scss/modules/_sections.scss */
+.section-showcase .showcase-content {
+  padding: 110px 15px;
+  text-align: center;
+}
+/* line 16, ../scss/modules/_sections.scss */
+.section-showcase h1 {
+  color: #00aff0;
+}
+
+/* line 21, ../scss/modules/_sections.scss */
+.section-primary, .section-primary-a, .section-primary-b {
+  background: #00aff0;
+  color: #ffffff;
+}
+
+/* line 25, ../scss/modules/_sections.scss */
+.section-primary-a {
+  border-top: 4px solid #7fba00;
+}
+
+/* line 30, ../scss/modules/_sections.scss */
+.section-primary-b {
+  border-bottom: 4px solid #7fba00;
+}
+
+/* line 35, ../scss/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 38, ../scss/modules/_sections.scss */
+.section-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 42, ../scss/modules/_sections.scss */
+.section-dark {
+  background: #2b5464;
+  color: #ffffff;
+}
+
 /* LAYOUTS - Page layout styles */
 /* Navbar */
 /* line 4, ../scss/layouts/_nav.scss */
