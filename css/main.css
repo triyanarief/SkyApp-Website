@@ -298,6 +298,35 @@ section {
   color: #666666;
 }
 
+/* Searchbox */
+/* line 3, ../scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+/* line 6, ../scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 11, ../scss/modules/_forms.scss */
+.search input[type="search"] {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #00aff0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+/* line 21, ../scss/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
 /* LAYOUTS - Page layout styles */
 /* Navbar */
 /* line 4, ../scss/layouts/_nav.scss */
